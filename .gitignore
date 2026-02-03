@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+my_emotion_model/
+checkpoint-*/
+*.bin
+*.safetensors
+.DS_Store
+Thumbs.db
