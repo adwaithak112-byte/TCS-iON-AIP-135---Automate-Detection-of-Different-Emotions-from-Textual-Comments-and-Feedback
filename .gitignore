@@ -1,9 +1,20 @@
+# Python / venv
 .venv/
 __pycache__/
 *.pyc
+
+# Streamlit cache
+.streamlit/
+
+# HuggingFace / model outputs
 my_emotion_model/
-checkpoint-*/
-*.bin
+Emotion_project/my_emotion_model/
+**/checkpoint-*/
 *.safetensors
-.DS_Store
-Thumbs.db
+
+# Optional: datasets if large
+*.csv
+
+# IDE
+.vscode/
+.idea/
