@@ -1,20 +1,27 @@
-# Python / venv
-.venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
 
-# Streamlit cache
-.streamlit/
+# Virtual environment
+.venv/
+venv/
+env/
 
-# HuggingFace / model outputs
-my_emotion_model/
-Emotion_project/my_emotion_model/
-**/checkpoint-*/
-*.safetensors
+# Streamlit
+.streamlit/secrets.toml
 
-# Optional: datasets if large
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Data (optional)
 *.csv
 
-# IDE
-.vscode/
-.idea/
+# Models / checkpoints (HIGHLY recommended to avoid huge uploads)
+checkpoint-*/
+*.safetensors
+my_emotion_model/
